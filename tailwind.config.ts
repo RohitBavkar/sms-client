@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        smsSky: "#C3EBFA",
+        smsSkyLight: "#EDF9FD",
+        smsPurple: "#CFCEFF",
+        smsPurpleLight: "#F1F0FF",
+        smsYellow: "#FAE27C",
+        smsYellowLight: "#FEFCE8",
       },
     },
   },
