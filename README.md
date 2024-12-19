@@ -1,3 +1,6 @@
-## Student Attendance System
+## Student Management System
 
-My C# college project frontend im next.js
+Rebuilding my college project in latest tech stack
+Frontend - React, Tailwind
+Backend - SpringBoot
+Database - PostgreSQL
