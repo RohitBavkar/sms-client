@@ -79,7 +79,6 @@ const TempChart = () => {
     <div className="bg-white rounded-xl w-full h-full p-4 border shadow-sm">
       <div className="flex justify-between items-center">
         <h1 className="text-lg font-semibold">Temp</h1>
-        <Image src="/moreDark.png" alt="" width={20} height={20} />
       </div>
       <ResponsiveContainer width="100%" height="90%">
         <LineChart
@@ -116,7 +115,7 @@ const TempChart = () => {
           <Line
             type="monotone"
             dataKey="data1"
-            stroke="#C3EBFA"
+            stroke="#2563eb"
             strokeWidth={5}
           />
           <Line

@@ -11,12 +11,12 @@ const data = [
   {
     name: "Girls",
     count: 50,
-    fill: "#FAE27C",
+    fill: "#f9a8d4",
   },
   {
     name: "Boys",
     count: 59,
-    fill: "#C3EBFA",
+    fill: "#2563eb",
   },
 ];
 const CountChart = () => {
@@ -24,7 +24,6 @@ const CountChart = () => {
     <div className="bg-white rounded-xl w-full h-full p-4 border shadow-sm">
       <div className="flex justify-between items-center">
         <h1 className="text-lg font-semibold">Students</h1>
-        <Image src="/moreDark.png" alt="" width={20} height={20} />
       </div>
 
       <div className="relative w-full h-[75%]">
@@ -57,7 +56,7 @@ const CountChart = () => {
         </div>
 
         <div className="flex flex-col gap-1">
-          <div className="w-5 h-5 bg-blue-600 rounded-full"></div>
+          <div className="w-5 h-5 bg-pink-300 rounded-full"></div>
           <h1 className="font-bold">1,234</h1>
           <h2 className="text-xs text-gray-300">Girls 45%</h2>
         </div>

@@ -3,8 +3,8 @@ import Image from "next/image";
 import { PieChart, Pie, ResponsiveContainer } from "recharts";
 
 const data = [
-  { name: "Group A", value: 92, fill: "#C3EBFA" },
-  { name: "Group B", value: 8, fill: "#FAE27C" },
+  { name: "Group A", value: 92, fill: "#2563eb" },
+  { name: "Group B", value: 8, fill: "#f472b6" },
 ];
 
 const Performance = () => {
