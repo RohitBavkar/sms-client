@@ -74,7 +74,13 @@ const FormModal = ({
         className={`${size} flex items-center justify-center rounded-full ${bgColor}`}
         onClick={() => setOpen(true)}
       >
-        <Image src={`/${type}.png`} alt="" width={16} height={16} />
+        <Image
+          src={`/${type}.svg`}
+          alt=""
+          width={16}
+          height={16}
+          title={`${type}`}
+        />
       </button>
       {open && (
         <div className="w-screen h-screen absolute left-0 top-0 bg-black bg-opacity-60 z-50 flex items-center justify-center">
@@ -84,7 +90,13 @@ const FormModal = ({
               className="absolute top-4 right-4 cursor-pointer"
               onClick={() => setOpen(false)}
             >
-              <Image src="/close.png" alt="" width={14} height={14} />
+              <Image
+                src="/close.png"
+                alt=""
+                width={14}
+                height={14}
+                title="close"
+              />
             </div>
           </div>
         </div>
